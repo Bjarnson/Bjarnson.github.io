@@ -8,10 +8,14 @@
 <body>
     <div class="site-container">
         <div class="page-header">
+            <div style="display:flex;margin-bottom:1rem;">
+                <img src="./appLogo.png" alt="A letter B logo" class="app-logo">
+            </div>
             <div class="large-header">Bjarnson Fitness</div>
             <div class="subheader">Get fit with custom workouts created by
                 <a href="https://www.instagram.com/bjarnson_fitness/?hl=en">@BjarnsonFitness</a> on Instagram.
             </div>
+            
         </div>
         <div class="sections-container">
             <div class="section">
@@ -21,7 +25,6 @@
             <div class="section" style="margin-top: 1rem;">
                 <div class="section-header">Terms of Service</div>
                 <div class="section-text">
-
                     <div style="margin-bottom: 1rem">
                         Last updated Dec 21, 2021
                     </div>
@@ -147,16 +150,7 @@
                             For general inquiries, complaints, questions or claims concerning the licensed Application, please contact:
                         </div>
                        <div style="margin-top:1rem;">
-                           Jason Bjarson
-                       </div> 
-                       <div style="margin-top:1rem;">
-                           94 Shadow Point Dr
-                       </div> 
-                       <div style="margin-top:1rem;">
-                           Saint George, UT 84770
-                       </div> 
-                       <div style="margin-top:1rem;">
-                           United States
+                           Customer Support
                        </div> 
                        <div style="margin-top:1rem;">
                           bjarsonfitness@gmail.com
@@ -185,19 +179,23 @@
         color: rgb(189, 189, 189);
     }
     a {
-        color: rgb(255, 102, 0);
+        color: rgb(202, 77, 77);
+    }
+    .app-logo {
+        margin: auto;
+        border-radius: 50px;
+        height: 250px;
+        width: 250px;
     }
     .site-container {
         max-width: 700px;
         margin: auto;
-        box-shadow: 0px 0px 50px rgb(0,0,0, 15%);
-        border-radius: 10px;
-        background: rgba(255,255,255,10%);
         padding: 1rem;
     }
     .page-header {
         padding: 1rem;
-        border-bottom: 1px solid red;
+        margin-bottom: 2rem;
+        text-align: center;
     }
     .large-header {
         font-size: 1.5rem;
@@ -212,9 +210,6 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-    }
-    .section {
-        
     }
     .section-header {
         font-size: 1rem;
